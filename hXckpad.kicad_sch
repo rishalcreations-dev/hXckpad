@@ -2154,14 +2154,9 @@
 		(color 0 0 0 0)
 		(uuid "fb5e738f-2edc-4e54-9845-94487689c036")
 	)
-	(bus_entry
-		(at 29.21 285.75)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "196cb7b6-7386-4d19-9628-2c4459488001")
+	(no_connect
+		(at 224.79 39.37)
+		(uuid "1601d3ba-c096-4671-af32-45636d5f943a")
 	)
 	(wire
 		(pts
@@ -3133,7 +3128,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "030288ca-0cd5-4330-acae-d193005607a3")
-		(property "Reference" "D3"
+		(property "Reference" "D6"
 			(at 92.71 32.9498 0)
 			(effects
 				(font
@@ -3193,7 +3188,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D3")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3209,7 +3204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d405755-8b09-42e1-ae47-c1fded3f5ae1")
-		(property "Reference" "SW4"
+		(property "Reference" "SW12"
 			(at 134.62 148.59 0)
 			(effects
 				(font
@@ -3261,7 +3256,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW4")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
@@ -3277,7 +3272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106225ba-0f8b-491f-b412-3c0c1601958a")
-		(property "Reference" "D8"
+		(property "Reference" "D20"
 			(at 168.91 32.9498 0)
 			(effects
 				(font
@@ -3337,7 +3332,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D8")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -3353,7 +3348,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "194d0c9e-7685-4073-ac94-422e8eaa8329")
-		(property "Reference" "SW11"
+		(property "Reference" "SW6"
 			(at 82.55 160.02 0)
 			(effects
 				(font
@@ -3405,7 +3400,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW11")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -3421,7 +3416,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dbae670-2df5-4861-81f2-a6c2fd95481c")
-		(property "Reference" "SW12"
+		(property "Reference" "SW3"
 			(at 58.42 160.02 0)
 			(effects
 				(font
@@ -3473,7 +3468,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW12")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -3489,7 +3484,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215e038f-1ebc-4fd8-b26b-d5eff5f6a38e")
-		(property "Reference" "SW5"
+		(property "Reference" "SW10"
 			(at 132.08 54.61 0)
 			(effects
 				(font
@@ -3550,7 +3545,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW5")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
@@ -3566,7 +3561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26abd2ab-e234-4947-a4b9-09013333cc43")
-		(property "Reference" "SW8"
+		(property "Reference" "SW4"
 			(at 82.55 137.16 0)
 			(effects
 				(font
@@ -3618,7 +3613,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW8")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3700,7 +3695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f4bad23-9b54-4db9-9b42-e35b87adb130")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 156.21 88.9 0)
 			(effects
 				(font
@@ -3750,7 +3745,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3852,7 +3847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d889226-2327-48c9-9368-5478c5222791")
-		(property "Reference" "D13"
+		(property "Reference" "D12"
 			(at 116.84 138.43 0)
 			(effects
 				(font
@@ -3922,7 +3917,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D13")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -3938,7 +3933,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4200ca6c-5033-4c45-8569-7053b838f006")
-		(property "Reference" "SW14"
+		(property "Reference" "SW7"
 			(at 107.95 137.16 0)
 			(effects
 				(font
@@ -3990,7 +3985,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW14")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4006,7 +4001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49c27337-b1a2-4a1e-bd2d-112e9a1b9ba6")
-		(property "Reference" "SW16"
+		(property "Reference" "SW11"
 			(at 134.62 137.16 0)
 			(effects
 				(font
@@ -4058,7 +4053,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW16")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -4150,7 +4145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fcb56cb-0ae5-4859-ad1b-cb5248063ad3")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 77.47 32.9498 0)
 			(effects
 				(font
@@ -4210,7 +4205,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -4302,7 +4297,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ca028ee-7234-4447-9661-112c8118d08f")
-		(property "Reference" "SW2"
+		(property "Reference" "SW5"
 			(at 82.55 148.59 0)
 			(effects
 				(font
@@ -4354,7 +4349,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW2")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4370,7 +4365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e4a5d7e-8e70-4660-8688-07ae5bd37a88")
-		(property "Reference" "SW3"
+		(property "Reference" "SW8"
 			(at 107.95 148.59 0)
 			(effects
 				(font
@@ -4422,7 +4417,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW3")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
@@ -4438,7 +4433,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2833a9-f5ad-4542-a1c6-7de29e41a478")
-		(property "Reference" "D11"
+		(property "Reference" "D9"
 			(at 91.44 161.29 0)
 			(effects
 				(font
@@ -4508,7 +4503,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D11")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -4524,7 +4519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7769f880-7002-4365-b4ef-56e0ae8aa907")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 67.31 149.86 0)
 			(effects
 				(font
@@ -4594,7 +4589,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4610,7 +4605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f1353a4-b8fe-4842-aff2-6979be8d532a")
-		(property "Reference" "D10"
+		(property "Reference" "D8"
 			(at 91.44 149.86 0)
 			(effects
 				(font
@@ -4680,7 +4675,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D10")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -4762,7 +4757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a8cf14a-69ac-413b-b159-3d1f6756bade")
-		(property "Reference" "D15"
+		(property "Reference" "D14"
 			(at 116.84 161.29 0)
 			(effects
 				(font
@@ -4832,7 +4827,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D15")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -4848,7 +4843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8af41fec-d9b2-48a1-9c7a-790ec2cf8a85")
-		(property "Reference" "D20"
+		(property "Reference" "D16"
 			(at 153.67 32.9498 0)
 			(effects
 				(font
@@ -4908,7 +4903,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D20")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -4924,7 +4919,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91746b4a-d80e-4f8b-b61e-8e7bfc555680")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR02"
 			(at 143.51 55.88 0)
 			(effects
 				(font
@@ -4974,7 +4969,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR06")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4990,7 +4985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a72107b-7a06-43da-98a4-a660cf8c4cb5")
-		(property "Reference" "D7"
+		(property "Reference" "D5"
 			(at 67.31 161.29 0)
 			(effects
 				(font
@@ -5060,7 +5055,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D7")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -5076,7 +5071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ffa9524-5b2b-4572-892b-2f200887f4a6")
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 58.42 148.59 0)
 			(effects
 				(font
@@ -5128,7 +5123,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW1")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -5230,7 +5225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7b41612-c7a8-4bcb-b4ab-a9c929102fa3")
-		(property "Reference" "D9"
+		(property "Reference" "D7"
 			(at 91.44 138.43 0)
 			(effects
 				(font
@@ -5300,7 +5295,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D9")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5402,7 +5397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8daa4f1-77bf-4e7a-bf74-424055a42d11")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 138.43 32.9498 0)
 			(effects
 				(font
@@ -5462,7 +5457,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -5477,7 +5472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa3f2be0-f632-4a3a-84d0-dda1316cf512")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 160.02 97.79 0)
 			(effects
 				(font
@@ -5527,7 +5522,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -5543,7 +5538,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3726a9c-da15-4351-a4ef-b3f9817db749")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 58.42 137.16 0)
 			(effects
 				(font
@@ -5595,7 +5590,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -5611,7 +5606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd0b6bd2-279c-4f1a-b6d3-dd4bdb326911")
-		(property "Reference" "D14"
+		(property "Reference" "D13"
 			(at 116.84 149.86 0)
 			(effects
 				(font
@@ -5681,7 +5676,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D14")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -5850,7 +5845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd4305ba-c757-47b3-85b6-0a02a3d0e63f")
-		(property "Reference" "SW9"
+		(property "Reference" "SW13"
 			(at 134.62 160.02 0)
 			(effects
 				(font
@@ -5902,7 +5897,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW9")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -5918,7 +5913,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2fbf2f1-c278-4541-b805-bafb288c7c4e")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 62.23 32.9498 0)
 			(effects
 				(font
@@ -5978,7 +5973,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -5993,7 +5988,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d694bb32-a4b7-49f9-bec6-089fd5899a74")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR07"
 			(at 217.17 53.34 0)
 			(effects
 				(font
@@ -6043,7 +6038,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR05")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -6059,7 +6054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2d3206-34cd-4801-b883-0aa6ce9bced3")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 217.17 35.56 0)
 			(effects
 				(font
@@ -6109,7 +6104,7 @@
 		(instances
 			(project ""
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -6228,7 +6223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e14ba6f2-c35c-4312-a499-d390c3273829")
-		(property "Reference" "D4"
+		(property "Reference" "D10"
 			(at 107.95 32.9498 0)
 			(effects
 				(font
@@ -6288,7 +6283,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D4")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -6304,7 +6299,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e712f51c-10d9-49d2-ac7d-64127a4c20f2")
-		(property "Reference" "SW10"
+		(property "Reference" "SW9"
 			(at 107.95 160.02 0)
 			(effects
 				(font
@@ -6356,7 +6351,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW10")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
@@ -6372,7 +6367,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc83d84f-a3f8-49ca-94aa-f4c8752c4d0e")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 67.31 138.43 0)
 			(effects
 				(font
@@ -6442,7 +6437,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -6458,7 +6453,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff5895e5-67cf-414d-8079-5633f1dc8b62")
-		(property "Reference" "D12"
+		(property "Reference" "D11"
 			(at 123.19 32.9498 0)
 			(effects
 				(font
@@ -6518,7 +6513,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D12")
+					(reference "D11")
 					(unit 1)
 				)
 			)
