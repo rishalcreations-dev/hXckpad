@@ -2270,7 +2270,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${SHIFTKEY_LIBRARY}/Models/Gateron-LP-3-Hotswap.step"
+	(model "${KIPRJMOD}/library/Models/Gateron-LP-3-Hotswap.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -2278,7 +2278,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 180)
+			(xyz -0 -0 -180)
 		)
 	)
 )
