@@ -62,7 +62,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "warning",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
         "creepage": "error",
@@ -644,16 +644,16 @@
       {
         "filename": "hXckpad.kicad_sch",
         "name": "hXckpad",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "ad311459-8043-483d-a9de-b185fc5cf354"
       }
     ],
-    "used_designators": "",
+    "used_designators": "ENC1,#PWR1-10,D1-36,LED1-12,C1-6,SW1-12,U1,TP1-14",
     "variants": []
   },
   "sheets": [
     [
       "ad311459-8043-483d-a9de-b185fc5cf354",
-      "Root"
+      "hXckpad"
     ]
   ],
   "text_variables": {},

@@ -1,10 +1,476 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "ad311459-8043-483d-a9de-b185fc5cf354")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:RotaryEncoder_Switch"
 			(pin_names
 				(offset 0.254)
@@ -13,8 +479,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +493,8 @@
 			)
 			(property "Value" "RotaryEncoder_Switch"
 				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +503,57 @@
 			)
 			(property "Footprint" ""
 				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "rotary switch encoder switch push button"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "RotaryEncoder*Switch*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "RotaryEncoder_Switch_0_1"
@@ -319,24 +801,6 @@
 					)
 				)
 				(pin passive line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "B"
@@ -347,6 +811,24 @@
 						)
 					)
 					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -393,173 +875,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4148"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100V 0.15A standard switching diode, DO-35"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?35*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LED:SK6812MINI"
 			(pin_names
 				(offset 0.254)
@@ -567,8 +882,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 5.08 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -578,6 +897,8 @@
 			)
 			(property "Value" "SK6812MINI"
 				(at 1.27 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -587,49 +908,59 @@
 			)
 			(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
 				(at 1.27 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
 				(at 2.54 -9.525 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(justify left top)
-					(hide yes)
 				)
 			)
 			(property "Description" "RGB LED with integrated controller"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SK6812MINI_0_0"
@@ -740,6 +1071,42 @@
 				)
 			)
 			(symbol "SK6812MINI_1_1"
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -776,42 +1143,6 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "DOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -826,8 +1157,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -837,6 +1172,8 @@
 			)
 			(property "Value" "SW_Push"
 				(at 0 -1.524 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -845,38 +1182,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "SW_Push_0_1"
@@ -969,8 +1314,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -979,6 +1328,8 @@
 			)
 			(property "Value" "XIAO-RP2040-DIP"
 				(at 5.334 -1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -987,29 +1338,35 @@
 			)
 			(property "Footprint" "Module:MOUDLE14P-XIAO-DIP-SMD"
 				(at 14.478 -32.258 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "XIAO-RP2040-DIP_1_0"
@@ -1440,88 +1797,16 @@
 					)
 				)
 				(pin passive line
-					(at 31.75 -5.08 180)
+					(at 31.75 -27.94 180)
 					(length 2.54)
-					(name "VBUS"
+					(name "GPIO1/RX"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 31.75 -8.89 180)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 31.75 -12.7 180)
-					(length 2.54)
-					(name "3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 31.75 -16.51 180)
-					(length 2.54)
-					(name "GPIO3/MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 31.75 -20.32 180)
-					(length 2.54)
-					(name "GPIO4/MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1548,16 +1833,16 @@
 					)
 				)
 				(pin passive line
-					(at 31.75 -27.94 180)
+					(at 31.75 -20.32 180)
 					(length 2.54)
-					(name "GPIO1/RX"
+					(name "GPIO4/MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "10"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1565,124 +1850,71 @@
 						)
 					)
 				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
+				(pin passive line
+					(at 31.75 -16.51 180)
+					(length 2.54)
+					(name "GPIO3/MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "1"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -12.7 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -8.89 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 31.75 -5.08 180)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1694,7 +1926,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1705,17 +1937,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "+5V"
 				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1724,38 +1962,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+5V\""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "+5V_0_1"
@@ -1800,7 +2046,7 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1819,7 +2065,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power)
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
@@ -1830,17 +2076,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Value" "GND"
 				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1849,38 +2101,46 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "GND_0_1"
@@ -1901,7 +2161,7 @@
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name "~"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1921,16 +2181,10 @@
 		)
 	)
 	(junction
-		(at 95.25 156.21)
+		(at 69.85 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "008e1048-9f38-47b1-930f-1f9da40dd8c8")
-	)
-	(junction
-		(at 147.32 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a8dc87f-36c6-475c-a66d-4004a946c51c")
+		(uuid "0c2fa4c1-be64-4567-9840-18bd6c748021")
 	)
 	(junction
 		(at 95.25 48.26)
@@ -1943,12 +2197,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0fe24c4f-a17b-4d99-98b1-3c74e608a79d")
-	)
-	(junction
-		(at 71.12 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18553488-0580-401f-aaa0-d3a0ae724145")
 	)
 	(junction
 		(at 125.73 30.48)
@@ -1975,16 +2223,16 @@
 		(uuid "1d5844e7-5d6d-49f7-9a65-4ebaf8902f1b")
 	)
 	(junction
-		(at 53.34 171.45)
+		(at 52.07 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a5b7bd4-e1cd-4235-a346-c2b2b6451155")
+		(uuid "347ed13d-0de6-47bc-ac8f-9c5f33742bb9")
 	)
 	(junction
-		(at 147.32 144.78)
+		(at 93.98 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2be19444-86f7-42d6-80db-c840222ebd34")
+		(uuid "3de5b228-9f68-4e48-8037-b5da125cfe35")
 	)
 	(junction
 		(at 140.97 30.48)
@@ -1993,22 +2241,34 @@
 		(uuid "408db576-4900-4744-b2e7-beb4dcd0bcd0")
 	)
 	(junction
+		(at 93.98 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "416dbf8e-7f07-4842-b9ba-c42d52c9a3d9")
+	)
+	(junction
+		(at 146.05 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c86afb3-69cb-4853-b86c-25125cab610c")
+	)
+	(junction
 		(at 156.21 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d345852-c26d-45d6-8c78-5885dac3a1a1")
 	)
 	(junction
-		(at 102.87 171.45)
+		(at 69.85 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d4cffff-a341-47b2-a1f3-6a38ba5b7290")
+	)
+	(junction
+		(at 101.6 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e3cebe3-5fc5-4328-ad61-877f5190db15")
-	)
-	(junction
-		(at 120.65 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50354d37-e3c7-49f3-b47d-d895b610cdb0")
 	)
 	(junction
 		(at 186.69 30.48)
@@ -2017,10 +2277,16 @@
 		(uuid "51908c79-0cf0-4557-aadd-fa946e420409")
 	)
 	(junction
-		(at 77.47 148.59)
+		(at 76.2 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "547d2136-8e0d-4d3a-9220-6aec4f3802ec")
+	)
+	(junction
+		(at 200.66 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5723a41e-d190-4146-ba46-737bf1cf7d07")
 	)
 	(junction
 		(at 110.49 30.48)
@@ -2029,25 +2295,31 @@
 		(uuid "5a553b4b-6119-4f6a-a178-614d4dcc7fa3")
 	)
 	(junction
-		(at 53.34 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d648700-d4a1-41e5-acce-d55644017e53")
-	)
-	(junction
 		(at 171.45 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e3784de-76cc-48d7-81ba-13fb9a6f4515")
 	)
 	(junction
-		(at 71.12 144.78)
+		(at 52.07 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67657ce7-1f8e-4def-97c1-0120b6a6a136")
+		(uuid "64f2238c-8dcf-46ce-8bf0-c07e2ef1b81a")
 	)
 	(junction
-		(at 77.47 171.45)
+		(at 193.04 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "686fba3a-a6ec-4573-85ac-9fdc5a3aa1e6")
+	)
+	(junction
+		(at 200.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68d525f7-408a-4923-a1cf-2d048ab0589c")
+	)
+	(junction
+		(at 76.2 180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f46065-1bf0-4161-8625-071e587868b0")
@@ -2059,13 +2331,19 @@
 		(uuid "6cacc9fe-b4af-42ad-9f9f-4f818d5cea5a")
 	)
 	(junction
+		(at 208.28 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "788a6845-afb3-488d-87a5-a73f713894ef")
+	)
+	(junction
 		(at 201.93 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79a34a3e-7ad9-4868-96b6-e0e885922989")
 	)
 	(junction
-		(at 102.87 160.02)
+		(at 101.6 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d1455a8-bd2d-44cd-8465-19ae22601cb2")
@@ -2077,28 +2355,34 @@
 		(uuid "877b0e99-610c-442a-8d16-05ccd83200ba")
 	)
 	(junction
+		(at 52.07 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8998201a-fac7-4c15-ae09-1d2bacd416f1")
+	)
+	(junction
 		(at 80.01 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a3c7077-5740-48ff-bdc2-d3a5b1db5733")
 	)
 	(junction
-		(at 95.25 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9074f204-f2f2-4666-92f9-9e7e03596df3")
-	)
-	(junction
-		(at 77.47 160.02)
+		(at 76.2 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7c62f8-a912-4e08-ae2a-529f54008918")
 	)
 	(junction
-		(at 53.34 160.02)
+		(at 119.38 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "a8dd13cd-acba-47ed-a2ad-1c9475e3eda7")
+		(uuid "ab03501d-9098-4e06-88de-eac9e321d3d3")
+	)
+	(junction
+		(at 193.04 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac2fdd2e-30c4-4ce7-97d4-05fb5dbe262d")
 	)
 	(junction
 		(at 110.49 48.26)
@@ -2113,16 +2397,28 @@
 		(uuid "db9a1b5e-056c-4cb8-b3ee-475efb85c20a")
 	)
 	(junction
+		(at 119.38 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de37483b-d2e7-4e27-b309-f36532af0218")
+	)
+	(junction
+		(at 208.28 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de459c23-5f98-4d16-8ee5-80fbe4292705")
+	)
+	(junction
+		(at 146.05 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1fd4f4c-5860-4068-a69a-f20f1b1cee5b")
+	)
+	(junction
 		(at 156.21 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e2898982-8968-4d91-919f-8c042b63c3b7")
-	)
-	(junction
-		(at 120.65 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb12eb5c-7250-4f9d-a959-4d7c959755d5")
 	)
 	(junction
 		(at 95.25 30.48)
@@ -2143,7 +2439,7 @@
 		(uuid "f2c55bd0-8b09-4eca-871e-9861da195656")
 	)
 	(junction
-		(at 102.87 148.59)
+		(at 101.6 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f57ccffb-8580-447b-afca-bf4e81d527bf")
@@ -2160,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 156.21) (xy 53.34 160.02)
+			(xy 52.07 165.1) (xy 52.07 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2170,7 +2466,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 160.02) (xy 77.47 160.02)
+			(xy 101.6 168.91) (xy 76.2 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2190,6 +2486,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 165.1) (xy 119.38 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ace8871-5a6d-4882-a4f5-19916d1527e8")
+	)
+	(wire
+		(pts
 			(xy 49.53 48.26) (xy 64.77 48.26)
 		)
 		(stroke
@@ -2200,7 +2506,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 167.64) (xy 129.54 171.45)
+			(xy 128.27 176.53) (xy 128.27 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2220,7 +2526,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 167.64) (xy 102.87 171.45)
+			(xy 101.6 176.53) (xy 101.6 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2230,13 +2536,13 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 67.31) (xy 111.76 67.31)
+			(xy 193.04 77.47) (xy 193.04 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "13b83896-a522-42e5-9a0d-e4e89c39bc33")
+		(uuid "1aeff361-eddd-4cb7-8049-09107bc7d364")
 	)
 	(wire
 		(pts
@@ -2250,16 +2556,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 114.3) (xy 71.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b80d0d4-2516-44ef-98ff-f40bae4c6569")
-	)
-	(wire
-		(pts
 			(xy 201.93 30.48) (xy 217.17 30.48)
 		)
 		(stroke
@@ -2270,23 +2566,43 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 38.1 97.79)
+			(xy 119.38 153.67) (xy 119.38 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1d5d3825-fe8f-492a-883c-c4113b0b3ca6")
+		(uuid "1d914727-5e88-4659-b274-5abb8198793a")
 	)
 	(wire
 		(pts
-			(xy 38.1 97.79) (xy 114.3 97.79)
+			(xy 215.9 76.2) (xy 215.9 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2247a97d-e8e9-4aa1-9b5d-6e9511393e4a")
+		(uuid "1ec34fc7-5d11-467a-8ee1-3d2485c2d3a6")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 146.05 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "205e677c-5477-4d9b-b830-01b9208a7f68")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 208.28 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e241db-fca4-4131-ae57-af1c7c7a7ac7")
 	)
 	(wire
 		(pts
@@ -2300,17 +2616,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 39.37) (xy 41.91 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25bb8c8c-d328-4d6b-9833-d65d732b6eed")
-	)
-	(wire
-		(pts
-			(xy 129.54 156.21) (xy 129.54 160.02)
+			(xy 128.27 165.1) (xy 128.27 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2320,7 +2626,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 160.02) (xy 102.87 160.02)
+			(xy 146.05 165.1) (xy 146.05 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29a63227-ba29-4336-ad26-757239c6f940")
+	)
+	(wire
+		(pts
+			(xy 128.27 168.91) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2350,6 +2666,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 39.37) (xy 41.91 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "322b34fb-0413-4dc1-962c-4f8d3c95be91")
+	)
+	(wire
+		(pts
+			(xy 69.85 153.67) (xy 69.85 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d1d287-9149-4302-9aa6-c4ffc555b6bc")
+	)
+	(wire
+		(pts
 			(xy 201.93 30.48) (xy 201.93 31.75)
 		)
 		(stroke
@@ -2357,16 +2693,6 @@
 			(type default)
 		)
 		(uuid "32e9a2a9-5970-426d-a806-8e02b45806c1")
-	)
-	(wire
-		(pts
-			(xy 147.32 125.73) (xy 161.29 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34b17222-28c0-4099-9562-b487b8006fad")
 	)
 	(wire
 		(pts
@@ -2380,93 +2706,63 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 97.79) (xy 149.86 97.79)
+			(xy 69.85 165.1) (xy 69.85 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "360668a3-3598-47b3-94d5-607b6a3a47a0")
+		(uuid "369c9418-95cf-4e53-8a50-7e120d53e3db")
 	)
 	(wire
 		(pts
-			(xy 151.13 86.36) (xy 149.86 86.36)
+			(xy 73.66 90.17) (xy 82.55 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "393070f2-c1c3-40ff-aa40-cd2857909c0d")
+		(uuid "3eaa8b18-98fc-4460-9850-2dba32772bcd")
 	)
 	(wire
 		(pts
-			(xy 53.34 160.02) (xy 40.64 160.02)
+			(xy 215.9 77.47) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a60e510-ef19-494c-a573-c1b28ee0103f")
+		(uuid "4023b96e-3c95-42c3-b10f-33764f80a297")
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 153.67 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c73bc65-f405-4e5a-bfaa-09cf68091343")
-	)
-	(wire
-		(pts
-			(xy 120.65 121.92) (xy 120.65 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e7b82e7-4fa5-4b4a-a69b-0aed0dcc4be9")
-	)
-	(wire
-		(pts
-			(xy 95.25 156.21) (xy 95.25 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40c4a257-0e9e-4f8d-b565-e809882053d0")
-	)
-	(wire
-		(pts
-			(xy 71.12 114.3) (xy 149.86 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "418b5a56-3ba9-4c81-986b-94d30bef800b")
-	)
-	(wire
-		(pts
-			(xy 151.13 85.09) (xy 151.13 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "453791f1-8a8c-48a9-accf-80d4bb6c928c")
-	)
-	(wire
-		(pts
-			(xy 77.47 171.45) (xy 53.34 171.45)
+			(xy 76.2 180.34) (xy 52.07 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "477e3931-7367-437e-97ab-8273ae0d1eca")
+	)
+	(wire
+		(pts
+			(xy 93.98 153.67) (xy 93.98 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4917728e-d7d0-4abb-9366-7acb434afa2a")
+	)
+	(wire
+		(pts
+			(xy 93.98 137.16) (xy 93.98 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d12d413-4052-4df0-b61b-b183ca0c855f")
 	)
 	(wire
 		(pts
@@ -2480,7 +2776,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 90.17) (xy 160.02 91.44)
+			(xy 27.94 133.35) (xy 27.94 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2490,17 +2786,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 144.78) (xy 95.25 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4deb90c4-129b-4728-88ee-f51dc3ed5668")
-	)
-	(wire
-		(pts
-			(xy 53.34 167.64) (xy 53.34 171.45)
+			(xy 52.07 176.53) (xy 52.07 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2510,23 +2796,23 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 114.3 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50f954c8-813f-498f-a481-58e42b521219")
-	)
-	(wire
-		(pts
-			(xy 77.47 167.64) (xy 77.47 171.45)
+			(xy 76.2 176.53) (xy 76.2 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "518d5047-e1ce-4288-a9a0-9652b744b650")
+	)
+	(wire
+		(pts
+			(xy 40.64 157.48) (xy 52.07 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522de606-9226-4b98-9406-9fe00c107fa4")
 	)
 	(wire
 		(pts
@@ -2540,7 +2826,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 144.78) (xy 102.87 148.59)
+			(xy 101.6 153.67) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2550,7 +2836,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 148.59) (xy 77.47 148.59)
+			(xy 101.6 157.48) (xy 76.2 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2560,23 +2846,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 156.21) (xy 102.87 160.02)
+			(xy 101.6 165.1) (xy 101.6 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5685c2d7-27c8-4f69-86c3-8ea6acc40b91")
-	)
-	(wire
-		(pts
-			(xy 124.46 62.23) (xy 109.22 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "577a140a-6801-4797-aaed-99374f36edee")
 	)
 	(wire
 		(pts
@@ -2600,7 +2876,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 148.59) (xy 53.34 148.59)
+			(xy 76.2 157.48) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2610,17 +2886,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 118.11) (xy 95.25 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b69a315-2f8c-46af-9338-f136f4cecba4")
-	)
-	(wire
-		(pts
-			(xy 143.51 62.23) (xy 143.51 63.5)
+			(xy 101.6 85.09) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2640,17 +2906,17 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 62.23) (xy 109.22 93.98)
+			(xy 69.85 137.16) (xy 69.85 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ee15cad-f4ea-48e1-aaca-d7cea9968967")
+		(uuid "5facf460-b28d-411e-b44b-1c12e065e1ba")
 	)
 	(wire
 		(pts
-			(xy 139.7 62.23) (xy 143.51 62.23)
+			(xy 97.79 85.09) (xy 101.6 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2680,16 +2946,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 93.98) (xy 149.86 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6779eb2f-0449-4ea3-9cd3-82c997d3806c")
-	)
-	(wire
-		(pts
 			(xy 186.69 48.26) (xy 201.93 48.26)
 		)
 		(stroke
@@ -2710,26 +2966,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 147.32 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695e8baa-2a97-47c0-b021-f964056d4bd3")
-	)
-	(wire
-		(pts
-			(xy 53.34 171.45) (xy 38.1 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b0fb525-a3ac-4aca-bcde-8dd0689def63")
-	)
-	(wire
-		(pts
 			(xy 125.73 48.26) (xy 125.73 46.99)
 		)
 		(stroke
@@ -2740,13 +2976,23 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 124.46 64.77)
+			(xy 82.55 86.36) (xy 82.55 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "76e20c49-dd1e-406b-ae95-cbc940b397eb")
+	)
+	(wire
+		(pts
+			(xy 200.66 67.31) (xy 200.66 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772b5282-1d13-46ee-b862-2c534e7986e2")
 	)
 	(wire
 		(pts
@@ -2770,17 +3016,17 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 101.6) (xy 38.1 171.45)
+			(xy 97.79 90.17) (xy 99.06 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7a24afc2-2166-4210-9833-58e79795cfec")
+		(uuid "790fb09a-97ef-412d-af9f-8fd7ebf0417b")
 	)
 	(wire
 		(pts
-			(xy 129.54 144.78) (xy 129.54 148.59)
+			(xy 128.27 153.67) (xy 128.27 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2790,13 +3036,23 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 171.45) (xy 77.47 171.45)
+			(xy 101.6 180.34) (xy 76.2 180.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7fdaeedc-081d-420f-b7af-f7fe4fe25e82")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 193.04 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81fda41b-d3a9-4dcc-a8c9-eda39dd9c507")
 	)
 	(wire
 		(pts
@@ -2830,53 +3086,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 85.09) (xy 156.21 93.98)
+			(xy 208.28 67.31) (xy 208.28 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "86c87c48-a33e-4d51-9b8a-1ed56a5d82e7")
-	)
-	(wire
-		(pts
-			(xy 139.7 72.39) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89a1fe45-3610-4c61-b398-11b12ee433d6")
-	)
-	(wire
-		(pts
-			(xy 111.76 67.31) (xy 111.76 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89edec4f-feb5-4532-8505-3b4e3e89f451")
-	)
-	(wire
-		(pts
-			(xy 71.12 156.21) (xy 71.12 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9ec39d-1ffa-467f-9c48-fe6cdbcc755c")
-	)
-	(wire
-		(pts
-			(xy 43.18 109.22) (xy 43.18 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec5d65f-4db1-4381-a1c7-a379a4d29a0c")
+		(uuid "89431395-c430-49bf-8ada-a70e97dcf99b")
 	)
 	(wire
 		(pts
@@ -2890,13 +3106,13 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 101.6) (xy 157.48 101.6)
+			(xy 119.38 137.16) (xy 119.38 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9133cc91-29c5-44e0-ab82-603aa1e63ed3")
+		(uuid "914ccd56-3345-4f4b-a92c-0d215793e64f")
 	)
 	(wire
 		(pts
@@ -2910,7 +3126,17 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 63.5) (xy 124.46 63.5)
+			(xy 193.04 68.58) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c462b5-dee6-4e9e-9cff-6046aca85758")
+	)
+	(wire
+		(pts
+			(xy 80.01 86.36) (xy 82.55 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2930,16 +3156,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 105.41) (xy 40.64 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c25099d-fce4-4015-9889-6858b7d036d5")
-	)
-	(wire
-		(pts
 			(xy 110.49 48.26) (xy 110.49 46.99)
 		)
 		(stroke
@@ -2950,13 +3166,13 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 156.21) (xy 120.65 167.64)
+			(xy 73.66 85.09) (xy 82.55 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a00c88a9-eb82-4596-bcb7-93fbf42c6cb2")
+		(uuid "a11258e6-5974-49c2-bdbc-9d8a135179d1")
 	)
 	(wire
 		(pts
@@ -2970,43 +3186,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 125.73) (xy 161.29 97.79)
+			(xy 200.66 76.2) (xy 200.66 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a445f3f7-272a-4105-a11c-4fa1cc7acae9")
+		(uuid "a4ab6d8d-33ec-4bfc-81d9-9f1421d887ad")
 	)
 	(wire
 		(pts
-			(xy 109.22 93.98) (xy 114.3 93.98)
+			(xy 27.94 130.81) (xy 27.94 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a653e5ac-6fa4-4076-8afa-afd78841b3da")
-	)
-	(wire
-		(pts
-			(xy 153.67 118.11) (xy 153.67 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a956f47a-d2fe-4724-83dc-156162c8a61d")
-	)
-	(wire
-		(pts
-			(xy 40.64 105.41) (xy 114.3 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf884f2-b29c-4a55-b64a-c8abe4449792")
+		(uuid "a512ec45-7b37-40dd-b6f7-f14a7788927d")
 	)
 	(wire
 		(pts
@@ -3020,23 +3216,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 167.64) (xy 71.12 156.21)
+			(xy 193.04 67.31) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "add00371-30fb-4588-bb8e-1ea90ff51037")
-	)
-	(wire
-		(pts
-			(xy 139.7 67.31) (xy 139.7 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af7eaf8e-9a6f-4d3d-b3ba-903c7898d541")
+		(uuid "acca9cfb-6115-4479-b06b-0bd5f693d9b1")
 	)
 	(wire
 		(pts
@@ -3047,16 +3233,6 @@
 			(type default)
 		)
 		(uuid "b05b10c5-bb03-4a5f-af53-6f999ae16aae")
-	)
-	(wire
-		(pts
-			(xy 120.65 121.92) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0b6ccb3-45fd-4a0b-bc3c-e8b9ce7ecfe9")
 	)
 	(wire
 		(pts
@@ -3080,13 +3256,33 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 157.48 101.6)
+			(xy 208.28 67.31) (xy 215.9 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b50ac9da-9f59-40f8-bcce-88db007ec299")
+		(uuid "b5fa2f43-8d9b-4cd3-8c88-1a3027210cb5")
+	)
+	(wire
+		(pts
+			(xy 193.04 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba9615ae-f2a9-4ea3-b698-d021dcadcc99")
+	)
+	(wire
+		(pts
+			(xy 40.64 180.34) (xy 52.07 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb6e7fc8-606a-4149-bf21-7bc325ef42f2")
 	)
 	(wire
 		(pts
@@ -3100,13 +3296,23 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 156.21) (xy 77.47 160.02)
+			(xy 76.2 165.1) (xy 76.2 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c242bc76-7926-4857-b3ce-12ce777aabb5")
+	)
+	(wire
+		(pts
+			(xy 146.05 137.16) (xy 146.05 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c269e2a9-d26e-4ffa-9068-fc78f6a40120")
 	)
 	(wire
 		(pts
@@ -3130,7 +3336,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 171.45) (xy 102.87 171.45)
+			(xy 128.27 180.34) (xy 101.6 180.34)
 		)
 		(stroke
 			(width 0)
@@ -3150,23 +3356,23 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 147.32 156.21)
+			(xy 215.9 67.31) (xy 215.9 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c63dc9fb-afb8-4505-8585-88e422035801")
+		(uuid "c793854b-d621-451c-a349-9a14185448d6")
 	)
 	(wire
 		(pts
-			(xy 149.86 105.41) (xy 153.67 105.41)
+			(xy 93.98 165.1) (xy 93.98 176.53)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c707e5a7-ca57-4f7a-9605-7c32d0899ddd")
+		(uuid "ca93f5cd-f3ef-4955-8aac-449a1e595dac")
 	)
 	(wire
 		(pts
@@ -3180,7 +3386,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 53.34 148.59)
+			(xy 52.07 153.67) (xy 52.07 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3210,33 +3416,23 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 109.22) (xy 114.3 109.22)
+			(xy 27.94 130.81) (xy 31.75 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd619939-c0fc-4e29-b053-5a8b5d411c5c")
+		(uuid "cd4a8c67-2ec2-4aa8-bab3-9207449ed5a9")
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 114.3 90.17)
+			(xy 208.28 76.2) (xy 208.28 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cf3233aa-b3d5-4f19-86ac-932e1cf1f342")
-	)
-	(wire
-		(pts
-			(xy 53.34 148.59) (xy 43.18 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d35c570c-2f2f-47dc-b4bb-c41cf014e7f6")
+		(uuid "d39372e3-d4ab-422a-931c-2fc59cd84d83")
 	)
 	(wire
 		(pts
@@ -3250,7 +3446,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 160.02) (xy 53.34 160.02)
+			(xy 76.2 168.91) (xy 52.07 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3260,43 +3456,23 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 144.78) (xy 120.65 156.21)
+			(xy 99.06 91.44) (xy 100.33 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9a50301-f449-4ac1-9456-9162065b2c1c")
+		(uuid "e4ecf718-3673-44dd-912c-4c612870bfac")
 	)
 	(wire
 		(pts
-			(xy 147.32 156.21) (xy 147.32 167.64)
+			(xy 40.64 168.91) (xy 52.07 168.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ded24b28-5f67-4ce7-8fcd-9b7430b48753")
-	)
-	(wire
-		(pts
-			(xy 149.86 114.3) (xy 149.86 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e37959c0-04e4-4bce-9cc7-51af630edc6d")
-	)
-	(wire
-		(pts
-			(xy 114.3 72.39) (xy 114.3 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6f2f9b0-fe2b-43ab-99f6-612ca340cf11")
+		(uuid "e646822c-d68b-4e17-85cf-5bf0c70bcb10")
 	)
 	(wire
 		(pts
@@ -3320,7 +3496,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 90.17) (xy 160.02 90.17)
+			(xy 27.94 133.35) (xy 31.75 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3340,6 +3516,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 90.17) (xy 99.06 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecebdebc-778d-4785-b4a7-efa4bb7bb200")
+	)
+	(wire
+		(pts
 			(xy 125.73 30.48) (xy 125.73 31.75)
 		)
 		(stroke
@@ -3350,7 +3536,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 144.78) (xy 77.47 148.59)
+			(xy 208.28 77.47) (xy 200.66 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1296c3-f889-4852-90ff-f79931a2f123")
+	)
+	(wire
+		(pts
+			(xy 76.2 153.67) (xy 76.2 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3360,7 +3556,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 148.59) (xy 102.87 148.59)
+			(xy 128.27 157.48) (xy 101.6 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3388,17 +3584,203 @@
 		)
 		(uuid "fa28882d-23ab-432c-9091-071a7848738e")
 	)
+	(wire
+		(pts
+			(xy 193.04 66.04) (xy 193.04 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2b31af-0946-4da8-9ef0-c346b2d27f6e")
+	)
+	(label "MATRIX-C2"
+		(at 93.98 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "24c180b7-a177-4b9b-aa5b-b3acf11d75b8")
+	)
+	(label "MATRIX-C3"
+		(at 119.38 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "664ab267-9f8a-4690-8bb1-3126b9d94477")
+	)
+	(label "MATRIX-C1"
+		(at 69.85 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "926f00fc-5190-4433-a7d8-ec9c2b012d4d")
+	)
+	(label "MATRIX-R3"
+		(at 52.07 180.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2f57954-8d82-475c-a4ad-9749462fc113")
+	)
+	(label "MATRIX-C4"
+		(at 146.05 148.59 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c10af4af-d2af-4867-95fe-4c72d66ce726")
+	)
+	(label "MATRIX-R1"
+		(at 52.07 157.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da274162-b6a6-4c6f-a1b7-8a276a7fbc0b")
+	)
+	(label "MATRIX-R2"
+		(at 52.07 168.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db102cf8-66ef-4207-938e-73046058fbc0")
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02830559-c6f2-412a-949b-da01fe080aa2")
+		(property "Reference" "D6"
+			(at 90.17 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 90.17 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e5c9c98-b452-4ddb-bc25-8a6ff8d4f1b8")
+		)
+		(pin "2"
+			(uuid "1de29712-d36f-4de6-9c4a-d16b604b3616")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "LED:SK6812MINI")
 		(at 80.01 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "030288ca-0cd5-4330-acae-d193005607a3")
-		(property "Reference" "D3"
+		(property "Reference" "LED3"
 			(at 80.01 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,6 +3789,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 80.01 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3415,31 +3799,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 81.28 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 82.55 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 80.01 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -3457,7 +3847,187 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D3")
+					(reference "LED3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0714ecfd-6988-497f-8f81-87ee2e0eae5b")
+		(property "Reference" "TP6"
+			(at 119.38 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-C3"
+			(at 119.38 127.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 124.46 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cc95cc6-250a-49bb-9739-240e56d822fe")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0be18b38-d56a-4f21-8aff-dd7ee18b8543")
+		(property "Reference" "D1"
+			(at 66.04 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5648be19-f032-4592-b9dc-8ffb1bfa4b6e")
+		)
+		(pin "2"
+			(uuid "bf721b01-5c2c-43c9-bce4-7377ab65ba09")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3465,15 +4035,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 134.62 156.21 0)
+		(at 133.35 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "0d405755-8b09-42e1-ae47-c1fded3f5ae1")
-		(property "Reference" "SW8"
-			(at 134.62 151.892 0)
+		(property "Reference" "SW11"
+			(at 133.35 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3481,39 +4055,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 134.62 151.13 0)
+			(at 133.35 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 134.62 151.13 0)
+			(at 133.35 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 151.13 0)
+		(property "Datasheet" ""
+			(at 133.35 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 134.62 156.21 0)
+			(at 133.35 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3525,7 +4107,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW8")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -3535,13 +4117,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 156.21 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "106225ba-0f8b-491f-b412-3c0c1601958a")
-		(property "Reference" "D8"
+		(property "Reference" "LED8"
 			(at 156.21 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3550,6 +4136,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 156.21 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3558,31 +4146,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 157.48 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 158.75 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 156.21 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -3600,7 +4194,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D8")
+					(reference "LED8")
 					(unit 1)
 				)
 			)
@@ -3608,15 +4202,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 82.55 167.64 0)
+		(at 81.28 176.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "194d0c9e-7685-4073-ac94-422e8eaa8329")
-		(property "Reference" "SW10"
-			(at 82.55 163.322 0)
+		(property "Reference" "SW6"
+			(at 81.28 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3624,39 +4222,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 82.55 162.56 0)
+			(at 81.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 82.55 162.56 0)
+			(at 81.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 162.56 0)
+		(property "Datasheet" ""
+			(at 81.28 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 167.64 0)
+			(at 81.28 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3668,7 +4274,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW10")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -3676,15 +4282,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 58.42 167.64 0)
+		(at 57.15 176.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "1dbae670-2df5-4861-81f2-a6c2fd95481c")
-		(property "Reference" "SW9"
-			(at 58.42 163.322 0)
+		(property "Reference" "SW3"
+			(at 57.15 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3692,39 +4302,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 58.42 162.56 0)
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 58.42 162.56 0)
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 162.56 0)
+		(property "Datasheet" ""
+			(at 57.15 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 167.64 0)
+			(at 57.15 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3736,7 +4354,109 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW9")
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 66.04 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "215777f6-59e8-413e-a836-b4c6b490242a")
+		(property "Reference" "D2"
+			(at 66.04 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae07dfe9-a1e9-4c01-9cd2-9e335a91dada")
+		)
+		(pin "2"
+			(uuid "d224de7d-670f-40e7-8175-53cefd24fb8e")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3744,16 +4464,20 @@
 	)
 	(symbol
 		(lib_id "Device:RotaryEncoder_Switch")
-		(at 132.08 64.77 0)
+		(at 90.17 87.63 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "215e038f-1ebc-4fd8-b26b-d5eff5f6a38e")
 		(property "Reference" "ENC1"
-			(at 132.08 54.61 0)
+			(at 90.17 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3761,7 +4485,9 @@
 			)
 		)
 		(property "Value" "RotaryEncoder_Switch"
-			(at 132.08 57.15 0)
+			(at 90.17 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3769,30 +4495,36 @@
 			)
 		)
 		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
-			(at 128.27 60.706 0)
+			(at 86.36 83.566 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 132.08 58.166 0)
+		(property "Datasheet" ""
+			(at 90.17 81.026 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
-			(at 132.08 64.77 0)
+			(at 90.17 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "S2"
@@ -3811,7 +4543,7 @@
 			(uuid "9e93d4ba-b68c-4b8d-a7ae-20e10ff48bc0")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
 					(reference "ENC1")
 					(unit 1)
@@ -3821,15 +4553,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 82.55 144.78 0)
+		(at 81.28 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "26abd2ab-e234-4947-a4b9-09013333cc43")
-		(property "Reference" "SW2"
-			(at 82.55 140.462 0)
+		(property "Reference" "SW4"
+			(at 81.28 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3837,39 +4573,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 82.55 139.7 0)
+			(at 81.28 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 82.55 139.7 0)
+			(at 81.28 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 139.7 0)
+		(property "Datasheet" ""
+			(at 81.28 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 144.78 0)
+			(at 81.28 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3881,7 +4625,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -3889,24 +4633,30 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 63.5 0)
+		(at 80.01 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "272c3e29-bc0e-45f7-88b2-931e99795615")
-		(property "Reference" "#PWR03"
-			(at 121.92 69.85 0)
+		(property "Reference" "#PWR01"
+			(at 80.01 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 117.856 64.77 0)
+			(at 75.946 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3914,30 +4664,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 63.5 0)
+			(at 80.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 63.5 0)
+			(at 80.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 63.5 0)
+			(at 80.01 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3946,90 +4702,261 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR03")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 156.21 85.09 0)
+		(lib_id "Connector:TestPoint")
+		(at 100.33 91.44 270)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f4bad23-9b54-4db9-9b42-e35b87adb130")
-		(property "Reference" "#PWR06"
-			(at 156.21 88.9 0)
+		(uuid "2d2ed98a-fb77-40ff-9653-adbd23aac7b1")
+		(property "Reference" "TP12"
+			(at 104.648 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 156.21 80.01 0)
+		(property "Value" "ENC-S"
+			(at 110.236 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 156.21 85.09 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 85.09 0)
+			(at 100.33 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 156.21 85.09 0)
+		(property "Description" "test point"
+			(at 100.33 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "41fc6bd4-6ac9-45bf-9759-410414c5079a")
+			(uuid "c67715f5-dac3-4735-8e0a-7df4f0d7f867")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR06")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 143.51 144.78 180)
+		(lib_id "Connector:TestPoint")
+		(at 146.05 137.16 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "36b58ef8-b272-4a97-bb00-b7871b3f7f71")
-		(property "Reference" "D16"
-			(at 143.51 138.43 0)
+		(uuid "3279f225-0f3a-4da9-8fc8-9309fc424e5f")
+		(property "Reference" "TP7"
+			(at 146.05 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-C4"
+			(at 146.05 127.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 151.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5209cd40-119a-47a3-ac92-efec4d7b8207")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 133.35 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "335ed7eb-dd5d-49ad-b5a9-84ade0a0a8a3")
+		(property "Reference" "TP9"
+			(at 36.068 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.656 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 31.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c95f2530-7c43-40f9-8f76-f2884ec01707")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 115.57 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "363b9536-4d81-45c4-910e-cb9bac9202fe")
+		(property "Reference" "D9"
+			(at 115.57 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,85 +4964,101 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 143.51 140.97 0)
+			(at 115.57 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 143.51 144.78 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 143.51 144.78 0)
+		(property "Datasheet" ""
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 143.51 144.78 0)
+		(property "Description" "Diode"
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 143.51 144.78 0)
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 144.78 0)
+			(at 115.57 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "1c0efb3a-a7aa-46ec-8204-90c9c1bff4aa")
-		)
 		(pin "1"
-			(uuid "156fedcb-e0c4-46f2-b75d-69b9cd1e995b")
+			(uuid "9bd5993e-5e52-4dd5-b1f7-cc672abc2a17")
+		)
+		(pin "2"
+			(uuid "948c41ef-e0a1-43ad-9553-225d0c52a55b")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D16")
+					(reference "D9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 116.84 144.78 180)
+		(lib_id "Device:D")
+		(at 142.24 153.67 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d889226-2327-48c9-9368-5478c5222791")
-		(property "Reference" "D15"
-			(at 116.84 138.43 0)
+		(uuid "398a26f1-2565-4fc6-adb9-06a51483eac7")
+		(property "Reference" "D10"
+			(at 142.24 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,68 +5066,81 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 116.84 140.97 0)
+			(at 142.24 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 116.84 144.78 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 142.24 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 116.84 144.78 0)
+		(property "Datasheet" ""
+			(at 142.24 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 116.84 144.78 0)
+		(property "Description" "Diode"
+			(at 142.24 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 144.78 0)
+			(at 142.24 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 144.78 0)
+			(at 142.24 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "035f7824-9d7a-45de-81b4-b90293ffd773")
-		)
 		(pin "1"
-			(uuid "4bc94e22-34cb-4442-b171-bcea2935b105")
+			(uuid "804ece95-555f-488f-ad17-567d89f4e0fd")
+		)
+		(pin "2"
+			(uuid "534ffe05-d19a-4124-baa5-39f3b6767408")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D15")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -4192,15 +5148,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 144.78 0)
+		(at 106.68 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4200ca6c-5033-4c45-8569-7053b838f006")
-		(property "Reference" "SW3"
-			(at 107.95 140.462 0)
+		(property "Reference" "SW7"
+			(at 106.68 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,39 +5168,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 139.7 0)
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 107.95 139.7 0)
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 107.95 139.7 0)
+		(property "Datasheet" ""
+			(at 106.68 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 144.78 0)
+			(at 106.68 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4252,7 +5220,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW3")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -4260,15 +5228,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 134.62 144.78 0)
+		(at 133.35 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "49c27337-b1a2-4a1e-bd2d-112e9a1b9ba6")
-		(property "Reference" "SW4"
-			(at 134.62 140.462 0)
+		(property "Reference" "SW10"
+			(at 133.35 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4276,39 +5248,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 134.62 139.7 0)
+			(at 133.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 134.62 139.7 0)
+			(at 133.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 139.7 0)
+		(property "Datasheet" ""
+			(at 133.35 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 134.62 144.78 0)
+			(at 133.35 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4320,7 +5300,85 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW4")
+					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 69.85 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49e04b0e-484b-4208-96e4-0e5c64ffc926")
+		(property "Reference" "TP4"
+			(at 69.85 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-C1"
+			(at 69.85 127.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 74.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 69.85 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "623107d9-f499-47e1-8fec-97c55aeb0f0f")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -4330,13 +5388,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 201.93 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b29e3d0-16b9-4dac-a63e-1a58cdfd41a5")
-		(property "Reference" "D11"
+		(property "Reference" "LED11"
 			(at 201.93 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4345,6 +5407,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 201.93 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4353,31 +5417,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 203.2 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 204.47 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 201.93 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -4395,7 +5465,268 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D11")
+					(reference "LED11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 208.28 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cffc8df-4584-447d-920d-9f8b3fea58da")
+		(property "Reference" "C3"
+			(at 208.534 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 208.534 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 209.2452 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 208.28 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05a632ce-cbc3-46d0-8b4a-62ea0613dbbe")
+		)
+		(pin "2"
+			(uuid "62770515-95fa-409d-abe7-c689c2c08273")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 93.98 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4daae30b-a95e-4ce9-b607-c4ae4e200e41")
+		(property "Reference" "TP5"
+			(at 93.98 132.842 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-C2"
+			(at 93.98 127.254 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 93.98 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d18fe104-d820-46f4-84c4-c86162e38489")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e1847c4-df7e-4908-bf35-e7c796c2a1bf")
+		(property "Reference" "D4"
+			(at 90.17 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e76809c1-259d-4e07-9376-801bc1ef309c")
+		)
+		(pin "2"
+			(uuid "9f561227-7b4e-4e78-9295-e668d5c48af6")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -4405,13 +5736,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 64.77 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4fcb56cb-0ae5-4859-ad1b-cb5248063ad3")
-		(property "Reference" "D2"
+		(property "Reference" "LED2"
 			(at 64.77 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4420,6 +5755,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 64.77 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4428,31 +5765,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 66.04 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 67.31 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 64.77 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -4468,9 +5811,9 @@
 			(uuid "a9f9f261-4057-4a14-803e-48f92635ac14")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D2")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -4480,13 +5823,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 186.69 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ff49534-095c-44ab-8115-10aa0d750828")
-		(property "Reference" "D10"
+		(property "Reference" "LED10"
 			(at 186.69 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4495,6 +5842,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 186.69 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4503,31 +5852,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 187.96 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 189.23 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 186.69 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -4545,7 +5900,109 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D10")
+					(reference "LED10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 142.24 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5520328c-07ab-4bad-95ea-0087b96d83a6")
+		(property "Reference" "D11"
+			(at 142.24 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 142.24 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 142.24 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "35cac0fb-48f2-4050-9653-bafd9e496c09")
+		)
+		(pin "2"
+			(uuid "684213aa-0193-484c-b2d8-c7da0912637f")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -4553,15 +6010,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 82.55 156.21 0)
+		(at 81.28 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5ca028ee-7234-4447-9661-112c8118d08f")
-		(property "Reference" "SW6"
-			(at 82.55 151.892 0)
+		(property "Reference" "SW5"
+			(at 81.28 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4569,39 +6030,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 82.55 151.13 0)
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 82.55 151.13 0)
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 151.13 0)
+		(property "Datasheet" ""
+			(at 81.28 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 82.55 156.21 0)
+			(at 81.28 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4613,7 +6082,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW6")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -4621,15 +6090,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 156.21 0)
+		(at 106.68 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e4a5d7e-8e70-4660-8688-07ae5bd37a88")
-		(property "Reference" "SW7"
-			(at 107.95 151.892 0)
+		(property "Reference" "SW8"
+			(at 106.68 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4637,39 +6110,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 151.13 0)
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 107.95 151.13 0)
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 107.95 151.13 0)
+		(property "Datasheet" ""
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 156.21 0)
+			(at 106.68 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4681,24 +6162,27 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 91.44 167.64 180)
+		(lib_id "Device:D")
+		(at 66.04 176.53 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a2833a9-f5ad-4542-a1c6-7de29e41a478")
-		(property "Reference" "D22"
-			(at 91.44 161.29 0)
+		(uuid "61db9451-3b8b-4a61-977f-9e83901c5fda")
+		(property "Reference" "D3"
+			(at 66.04 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,240 +6190,319 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 91.44 163.83 0)
+			(at 66.04 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 91.44 167.64 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 91.44 167.64 0)
+		(property "Datasheet" ""
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 91.44 167.64 0)
+		(property "Description" "Diode"
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 91.44 167.64 0)
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 167.64 0)
+			(at 66.04 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "4684bc54-dba9-469a-bb0c-fde1692c1027")
-		)
 		(pin "1"
-			(uuid "046b9b1d-43ce-4cb1-ad12-6d5726980b1a")
+			(uuid "2c145bb5-4925-41f2-ad0f-ff735370bcb4")
+		)
+		(pin "2"
+			(uuid "66118b88-e860-4a1f-a144-34e93af14765")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D22")
+					(reference "D3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 156.21 180)
+		(lib_id "Device:C")
+		(at 215.9 72.39 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7769f880-7002-4365-b4ef-56e0ae8aa907")
-		(property "Reference" "D17"
-			(at 67.31 149.86 0)
+		(uuid "701ad869-92e2-47c4-905d-065e5d7c246b")
+		(property "Reference" "C4"
+			(at 216.154 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 216.154 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 216.8652 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 67.31 152.4 0)
+		(property "Datasheet" ""
+			(at 215.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 156.21 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f7b731c-c899-4367-8b69-25faef6e03e1")
 		)
 		(pin "1"
-			(uuid "510b1507-698a-4cc3-8d1d-16ae1cc763b5")
+			(uuid "7e887d5b-cbe6-42db-ad07-f420da3add1b")
+		)
+		(pin "2"
+			(uuid "e370ab07-1afa-43c1-808f-02a24e658a80")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D17")
+					(reference "C4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 91.44 156.21 180)
+		(lib_id "Connector:TestPoint")
+		(at 73.66 90.17 90)
+		(mirror x)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f1353a4-b8fe-4842-aff2-6979be8d532a")
-		(property "Reference" "D18"
-			(at 91.44 149.86 0)
+		(uuid "80774b58-7d0a-4450-87bf-4ce589b6254c")
+		(property "Reference" "TP14"
+			(at 69.342 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ENC-B"
+			(at 63.754 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 91.44 152.4 0)
+		(property "Datasheet" ""
+			(at 73.66 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 91.44 156.21 0)
+		(property "Description" "test point"
+			(at 73.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "41434a35-d834-4a44-92e9-2e54a235f49c")
 		)
 		(pin "1"
-			(uuid "10704fe7-c592-4f47-894a-4e32aec8ea46")
+			(uuid "a05271c9-0f2f-40ef-912c-7d7b287a7eff")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D18")
+					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 168.91 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "809772f6-353d-4a04-849e-17e9937ca342")
+		(property "Reference" "TP2"
+			(at 36.322 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-R2"
+			(at 30.734 168.91 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06a8032d-9289-4adc-b7f9-82da51f90d27")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4947,25 +6510,31 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 85.09 0)
+		(at 193.04 66.04 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "89af07c4-0504-45b4-832e-074daeb9799a")
-		(property "Reference" "#PWR05"
-			(at 151.13 88.9 0)
+		(uuid "87738b07-22c6-436d-9863-cd2f9f731251")
+		(property "Reference" "#PWR06"
+			(at 193.04 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
-			(at 151.13 80.01 0)
+			(at 193.04 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4973,125 +6542,123 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 85.09 0)
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 85.09 0)
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 85.09 0)
+			(at 193.04 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
-			(uuid "8921a644-a558-4917-84b7-20e14eb81d47")
+			(uuid "3e444dab-c38c-4fb0-bb9d-3c95bfec5e60")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR05")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 116.84 167.64 180)
+		(lib_id "power:+5V")
+		(at 27.94 129.54 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a8cf14a-69ac-413b-b159-3d1f6756bade")
-		(property "Reference" "D23"
-			(at 116.84 161.29 0)
+		(uuid "89af07c4-0504-45b4-832e-074daeb9799a")
+		(property "Reference" "#PWR03"
+			(at 27.94 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 116.84 163.83 0)
+		(property "Value" "+5V"
+			(at 27.94 126.492 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 116.84 167.64 0)
+		(property "Datasheet" ""
+			(at 27.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 116.84 167.64 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 27.94 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 116.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 116.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9e1a18ad-697b-4c91-8e82-c6b49674c1b7")
 		)
 		(pin "1"
-			(uuid "c5283bac-8292-48b0-826c-28eb80566472")
+			(uuid "8921a644-a558-4917-84b7-20e14eb81d47")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D23")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -5101,13 +6668,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 140.97 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "8af41fec-d9b2-48a1-9c7a-790ec2cf8a85")
-		(property "Reference" "D7"
+		(property "Reference" "LED7"
 			(at 140.97 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5116,6 +6687,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 140.97 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5124,31 +6697,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 142.24 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 143.51 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 140.97 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5166,7 +6745,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D7")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -5174,24 +6753,30 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 63.5 0)
+		(at 101.6 86.36 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "91746b4a-d80e-4f8b-b61e-8e7bfc555680")
-		(property "Reference" "#PWR04"
-			(at 143.51 69.85 0)
+		(property "Reference" "#PWR02"
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 64.7699 0)
+			(at 104.14 87.6299 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,30 +6785,36 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 63.5 0)
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 63.5 0)
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 63.5 0)
+			(at 101.6 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5232,93 +6823,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a72107b-7a06-43da-98a4-a660cf8c4cb5")
-		(property "Reference" "D21"
-			(at 67.31 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 67.31 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "eae99177-35b8-47c6-b71c-cbe5a72fd955")
-		)
-		(pin "1"
-			(uuid "a810522e-3d6a-4819-bcb0-e8f3215a5109")
-		)
-		(instances
-			(project "hXckpad"
-				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D21")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -5326,15 +6831,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 58.42 156.21 0)
+		(at 57.15 165.1 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "9ffa9524-5b2b-4572-892b-2f200887f4a6")
-		(property "Reference" "SW5"
-			(at 58.42 151.892 0)
+		(property "Reference" "SW2"
+			(at 57.15 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,39 +6851,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 58.42 151.13 0)
+			(at 57.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 58.42 151.13 0)
+			(at 57.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 151.13 0)
+		(property "Datasheet" ""
+			(at 57.15 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 156.21 0)
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5386,24 +6903,27 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 143.51 156.21 180)
+		(lib_id "Device:D")
+		(at 115.57 153.67 180)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a374b447-a093-4115-8182-0e563314a8a0")
-		(property "Reference" "D20"
-			(at 143.51 149.86 0)
+		(uuid "a7c8787f-d2d8-47cc-8b62-f5942b9aef77")
+		(property "Reference" "D7"
+			(at 115.57 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5411,240 +6931,81 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 143.51 152.4 0)
+			(at 115.57 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 143.51 156.21 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 143.51 156.21 0)
+		(property "Datasheet" ""
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 143.51 156.21 0)
+		(property "Description" "Diode"
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 143.51 156.21 0)
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 156.21 0)
+			(at 115.57 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "fb09c201-403b-4351-bcfc-d97bac608205")
-		)
 		(pin "1"
-			(uuid "c97c0b3b-3889-4b8d-9ca8-26f2e7745630")
+			(uuid "2b4c8431-0ce1-4e00-ab30-4a5ff006bd32")
+		)
+		(pin "2"
+			(uuid "c9d8c991-ea72-48c8-9792-056d4ce157fb")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 91.44 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7b41612-c7a8-4bcb-b4ab-a9c929102fa3")
-		(property "Reference" "D14"
-			(at 91.44 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 91.44 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 91.44 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5a24a51-b020-48d7-91c4-2514b9b91158")
-		)
-		(pin "1"
-			(uuid "77abf2ec-00d8-407b-bbf4-a262b2900039")
-		)
-		(instances
-			(project "hXckpad"
-				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148")
-		(at 143.51 167.64 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a8896a80-7529-429a-9980-5a2013050ced")
-		(property "Reference" "D24"
-			(at 143.51 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 143.51 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b3ed21ba-573e-4c04-9c70-6a68f4ac80df")
-		)
-		(pin "1"
-			(uuid "5c365e11-9d69-4b32-a2d3-ae6355b8da34")
-		)
-		(instances
-			(project "hXckpad"
-				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D24")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -5654,13 +7015,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 125.73 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "a8daa4f1-77bf-4e7a-bf74-424055a42d11")
-		(property "Reference" "D6"
+		(property "Reference" "LED6"
 			(at 125.73 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5669,6 +7034,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 125.73 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5677,31 +7044,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 127 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 128.27 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 125.73 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -5719,7 +7092,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D6")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -5727,24 +7100,30 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 160.02 91.44 0)
+		(at 27.94 134.62 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "aa3f2be0-f632-4a3a-84d0-dda1316cf512")
-		(property "Reference" "#PWR07"
-			(at 160.02 97.79 0)
+		(property "Reference" "#PWR05"
+			(at 27.94 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 95.758 0)
+			(at 27.94 138.938 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,37 +7131,198 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 91.44 0)
+			(at 27.94 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 91.44 0)
+			(at 27.94 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 160.02 91.44 0)
+			(at 27.94 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "7ee778d3-0ec8-4a37-bfcb-16a9b97d2b4f")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 40.64 157.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "abd84b13-59c5-4119-90c7-c8ac777198dc")
+		(property "Reference" "TP1"
+			(at 36.322 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-R1"
+			(at 30.734 157.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c88a2a95-219c-4029-9955-5a09d686adaa")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 193.04 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b2c959a2-69ec-4777-805a-e711b8b021e6")
+		(property "Reference" "#PWR07"
+			(at 193.04 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 193.04 83.058 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c902386-1024-481e-b30b-295c76203a10")
+		)
+		(instances
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
 					(reference "#PWR07")
 					(unit 1)
@@ -5792,15 +7332,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 58.42 144.78 0)
+		(at 57.15 153.67 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "b3726a9c-da15-4351-a4ef-b3f9817db749")
 		(property "Reference" "SW1"
-			(at 58.42 140.462 0)
+			(at 57.15 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5808,39 +7352,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 58.42 139.7 0)
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 58.42 139.7 0)
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 58.42 139.7 0)
+		(property "Datasheet" ""
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 58.42 144.78 0)
+			(at 57.15 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5859,17 +7411,179 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 116.84 156.21 180)
+		(lib_id "Connector:TestPoint")
+		(at 40.64 39.37 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd0b6bd2-279c-4f1a-b6d3-dd4bdb326911")
-		(property "Reference" "D19"
-			(at 116.84 149.86 0)
+		(uuid "b6c2cdbb-c887-4907-9dbd-113d4aab7a0b")
+		(property "Reference" "TP8"
+			(at 36.322 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "RGB-DI"
+			(at 30.734 39.37 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 40.64 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f590c527-96c3-4d4b-a155-fa1c92d76f37")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 193.04 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b6f256dd-a52b-41eb-b985-f3f4f04bf485")
+		(property "Reference" "C1"
+			(at 193.294 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 193.294 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 194.0052 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 193.04 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bfee9c3c-e633-47ff-b093-e4c6dba9c402")
+		)
+		(pin "2"
+			(uuid "dde1fea9-35da-49d9-8716-0b4421249c12")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 142.24 176.53 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b94b4e04-3db1-4c3a-88a8-200144e24aeb")
+		(property "Reference" "D12"
+			(at 142.24 173.736 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,68 +7591,262 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 116.84 152.4 0)
+			(at 142.24 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 116.84 156.21 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 116.84 156.21 0)
+		(property "Datasheet" ""
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 116.84 156.21 0)
+		(property "Description" "Diode"
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 116.84 156.21 0)
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 116.84 156.21 0)
+			(at 142.24 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "9b3b8428-92ae-4c24-979e-5dbb1e63af52")
-		)
 		(pin "1"
-			(uuid "0a894e51-30b0-4e16-928f-ae1a6fc41d41")
+			(uuid "13b00b63-22ae-4e5c-95db-7957d199bcad")
+		)
+		(pin "2"
+			(uuid "bd088600-7e88-4959-ac6e-ca006cbd6a58")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D19")
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 115.57 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bda4b9c9-a976-4fdb-8c8f-08323be9c665")
+		(property "Reference" "D8"
+			(at 115.57 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 115.57 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 115.57 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56ad44c9-6829-436e-bdf4-a7cb84519fa6")
+		)
+		(pin "2"
+			(uuid "8a2be634-9bb1-428b-bba2-c39d4337c635")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 73.66 85.09 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c0b6ea76-cd17-464c-a2a9-548118ba1c8a")
+		(property "Reference" "TP13"
+			(at 69.342 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ENC-A"
+			(at 63.754 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 73.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 73.66 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cfa69678-ed66-4f7a-93e1-180817779ead")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -5948,13 +7856,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 171.45 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "c429d083-618f-4057-9c99-652c6ae05c5c")
-		(property "Reference" "D9"
+		(property "Reference" "LED9"
 			(at 172.72 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5963,6 +7875,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 172.72 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5971,31 +7885,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 172.72 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 173.99 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 171.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6013,7 +7933,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D9")
+					(reference "LED9")
 					(unit 1)
 				)
 			)
@@ -6023,57 +7943,69 @@
 		(lib_id "LED:SK6812MINI")
 		(at 217.17 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7c57342-84f3-4cda-a40d-fe9f53ba072b")
-		(property "Reference" "D12"
+		(property "Reference" "LED12"
 			(at 229.87 32.9498 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "SK6812MINI"
 			(at 229.87 35.4898 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 218.44 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 219.71 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 217.17 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6091,7 +8023,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D12")
+					(reference "LED12")
 					(unit 1)
 				)
 			)
@@ -6099,15 +8031,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 134.62 167.64 0)
+		(at 133.35 176.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd4305ba-c757-47b3-85b6-0a02a3d0e63f")
 		(property "Reference" "SW12"
-			(at 134.62 163.322 0)
+			(at 133.35 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6115,39 +8051,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 134.62 162.56 0)
+			(at 133.35 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 134.62 162.56 0)
+			(at 133.35 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 134.62 162.56 0)
+		(property "Datasheet" ""
+			(at 133.35 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 134.62 167.64 0)
+			(at 133.35 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6169,13 +8113,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 49.53 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2fbf2f1-c278-4541-b805-bafb288c7c4e")
-		(property "Reference" "D1"
+		(property "Reference" "LED1"
 			(at 49.53 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6184,6 +8132,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 49.53 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6192,31 +8142,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 50.8 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 52.07 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 49.53 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6234,7 +8190,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D1")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -6244,22 +8200,28 @@
 		(lib_id "power:GND")
 		(at 217.17 49.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "d694bb32-a4b7-49f9-bec6-089fd5899a74")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 217.17 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 217.17 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6268,38 +8230,146 @@
 		)
 		(property "Footprint" ""
 			(at 217.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 217.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"GNLED\" , grounLED"
 			(at 217.17 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "9bba4b46-de8e-4ec3-bba5-e341c6fec0cd")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR02")
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 90.17 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d87a1f05-e934-4efe-8166-005a8c007721")
+		(property "Reference" "D5"
+			(at 90.17 162.306 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 90.17 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22b1ffcb-d23d-4a83-80b4-53ca2f44d826")
+		)
+		(pin "2"
+			(uuid "0b4adff6-7558-4157-b328-7f66f79dc689")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -6309,23 +8379,29 @@
 		(lib_id "power:+5V")
 		(at 217.17 29.21 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da2d3206-34cd-4801-b883-0aa6ce9bced3")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 217.17 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "+5V"
 			(at 217.17 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,38 +8410,203 @@
 		)
 		(property "Footprint" ""
 			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
 			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
 			(uuid "11b36609-3328-48a0-a6cc-18bb480141d6")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "#PWR01")
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 200.66 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "daa5ab31-0c09-4286-82be-dba39750c8b3")
+		(property "Reference" "C2"
+			(at 200.914 70.358 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 200.914 74.676 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 201.6252 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 200.66 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "979b1126-650a-4187-a0cc-a0b919bea3a9")
+		)
+		(pin "2"
+			(uuid "64671aab-d139-4a8e-a4e2-10df6e58012c")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 31.75 130.81 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dcdd390b-0c32-4dbc-9dde-31eee8a01c67")
+		(property "Reference" "TP11"
+			(at 36.068 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "+5V"
+			(at 41.656 130.81 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 31.75 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 31.75 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15c9249c-676d-45c3-ad6e-a9be273233fd")
+		)
+		(instances
+			(project "hXckpad"
+				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -6373,15 +8614,19 @@
 	)
 	(symbol
 		(lib_id "opl:XIAO-RP2040-DIP")
-		(at 118.11 81.28 0)
+		(at 194.31 83.82 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "e06a3e2e-211f-4adc-ae1e-ee0ba2d65a8f")
 		(property "Reference" "U1"
-			(at 132.08 78.74 0)
+			(at 208.28 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6389,38 +8634,46 @@
 			)
 		)
 		(property "Value" "XIAO-RP2040-DIP"
-			(at 132.08 81.28 0)
+			(at 208.28 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "opl:XIAO-RP2040-DIP"
-			(at 132.588 113.538 0)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical_SMD"
+			(at 208.788 116.078 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 81.28 0)
+			(at 194.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
-			(at 118.11 81.28 0)
+			(at 194.31 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -6466,7 +8719,7 @@
 			(uuid "6cdb6a78-473e-43f4-a6c8-4f85a78b9e26")
 		)
 		(instances
-			(project ""
+			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
 					(reference "U1")
 					(unit 1)
@@ -6478,13 +8731,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 95.25 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14ba6f2-c35c-4312-a499-d390c3273829")
-		(property "Reference" "D4"
+		(property "Reference" "LED4"
 			(at 95.25 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,6 +8750,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 95.25 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,31 +8760,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 96.52 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 97.79 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 95.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6543,7 +8808,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D4")
+					(reference "LED4")
 					(unit 1)
 				)
 			)
@@ -6551,15 +8816,19 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 107.95 167.64 0)
+		(at 106.68 176.53 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "e712f51c-10d9-49d2-ac7d-64127a4c20f2")
-		(property "Reference" "SW11"
-			(at 107.95 163.322 0)
+		(property "Reference" "SW9"
+			(at 106.68 172.212 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6567,39 +8836,47 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 107.95 162.56 0)
+			(at 106.68 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "ShiftKey Library:Gateron_LP_3.0_Hotswap"
-			(at 107.95 162.56 0)
+			(at 106.68 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 107.95 162.56 0)
+		(property "Datasheet" ""
+			(at 106.68 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 107.95 167.64 0)
+			(at 106.68 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -6611,93 +8888,85 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "SW11")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148")
-		(at 67.31 144.78 180)
+		(lib_id "Connector:TestPoint")
+		(at 40.64 180.34 90)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc83d84f-a3f8-49ca-94aa-f4c8752c4d0e")
-		(property "Reference" "D13"
-			(at 67.31 138.43 0)
+		(uuid "ff56a241-cbf2-4732-bf34-a206ff79835f")
+		(property "Reference" "TP3"
+			(at 36.322 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MATRIX-R3"
+			(at 30.734 180.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 40.64 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 67.31 140.97 0)
+		(property "Datasheet" ""
+			(at 40.64 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 67.31 144.78 0)
+		(property "Description" "test point"
+			(at 40.64 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 67.31 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "037acac7-e201-4a00-995a-f772072cc5b7")
 		)
 		(pin "1"
-			(uuid "16136ac7-508a-45b6-9b7a-6fbdb5dfdec3")
+			(uuid "d7b8773b-74ff-47d0-b6d8-fe6d426077c6")
 		)
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D13")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -6707,13 +8976,17 @@
 		(lib_id "LED:SK6812MINI")
 		(at 110.49 39.37 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ff5895e5-67cf-414d-8079-5633f1dc8b62")
-		(property "Reference" "D5"
+		(property "Reference" "LED5"
 			(at 110.49 50.9838 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6722,6 +8995,8 @@
 		)
 		(property "Value" "SK6812MINI"
 			(at 110.49 28.3778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6730,31 +9005,37 @@
 		)
 		(property "Footprint" "ShiftKey Library:SK6812MINI-E"
 			(at 111.76 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/2686/SK6812MINI_REV.01-1-2.pdf"
+		(property "Datasheet" "https://cLEDn-shop.aLEDafruit.com/proLEDuct-files/2686/SK6812MINI_REV.01-1-2.pLEDf"
 			(at 113.03 48.895 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-				(hide yes)
 			)
 		)
-		(property "Description" "RGB LED with integrated controller"
+		(property "Description" "RGB LELED with integrateLED controller"
 			(at 110.49 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "4"
@@ -6772,7 +9053,7 @@
 		(instances
 			(project "hXckpad"
 				(path "/ad311459-8043-483d-a9de-b185fc5cf354"
-					(reference "D5")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
