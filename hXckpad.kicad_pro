@@ -647,7 +647,7 @@
         "uuid": "ad311459-8043-483d-a9de-b185fc5cf354"
       }
     ],
-    "used_designators": "ENC1,#PWR1-10,D1-36,LED1-12,C1-6,SW1-12,U1,TP1-14",
+    "used_designators": "ENC1,#PWR1-10,D1-36,LED1-12,C1-6,SW1-12,U1,TP1-14,H1-4",
     "variants": []
   },
   "sheets": [
